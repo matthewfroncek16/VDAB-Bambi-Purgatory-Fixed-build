@@ -152,12 +152,13 @@ class FreeplayState extends MusicBeatState
 					#if !debug
 					if (FlxG.save.data.disruptionFound)
 					#end
-						addWeek(['disruption'], 2, ['bambiPISSED']);
+						addWeek(['Disruption'], 2, ['bambiPISSED']);
 					addWeek(['8-28-63'], 1, ['splitathon']);
 					addWeek(['Sucked'], 3, ['bamberfunny']);
 					//addWeek(['Monochrome'], 5, ['bambi3d']);
 					//addWeek(['Defeat'], 5, ['bambiRage']);
 				case 'purgatory':
+					addWeek(['Shattered'], 6, ['bambiMad']);
 					addWeek(['Supplanted'], 7, ['bambiRage']);
 					addWeek(['Reality-Breaking'], 11, ['bambiGod2d']);
 					addWeek(['Beefin'], 12, ['bamburg']);

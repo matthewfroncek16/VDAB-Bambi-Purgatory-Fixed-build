@@ -903,7 +903,7 @@ class PlayState extends MusicBeatState
 				devaLaptop.active = false;
 
 				devaExpunged = new FlxSprite(-600, -200).loadGraphic(Paths.image('dave/3dFucked'));
-				devaExpunged.setGraphicSize(Std.int(bg.width * 1.8));
+				devaExpunged.setGraphicSize(Std.int(devaExpunged.width * 1.8));
 				devaExpunged.antialiasing = true;
 				devaExpunged.scrollFactor.set(0.6, 0.6);
 				devaExpunged.active = false;
