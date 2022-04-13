@@ -3252,9 +3252,7 @@ class PlayState extends MusicBeatState
 				case 128:
 					if(ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
 					redGlow.visible = true;
-				case 1344:
-					if(ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
-				case 1472:
+				case 2928:
 					if(ClientPrefs.flashing) FlxG.camera.flash(FlxColor.WHITE, 1);
 					camHUD.visible = false;
 					redGlow.visible = false;
