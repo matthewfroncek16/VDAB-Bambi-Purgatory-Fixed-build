@@ -9,7 +9,7 @@
 			"fps": 15,
 			"anim": "idle",
 			"loop": true,
-			"name": "Poip idle"
+			"name": "iDLE"
 		},
 		{
 			"offsets": [
@@ -20,7 +20,40 @@
 			"fps": 15,
 			"anim": "singUP",
 			"loop": false,
-			"name": "Poip up"
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				210,
+				100
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				210,
+				100
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				210,
+				100
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Right"			
 		}
 	],
 	"no_antialiasing": true,
